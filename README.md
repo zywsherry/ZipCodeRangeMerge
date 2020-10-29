@@ -78,5 +78,5 @@ Also test the exception throwing cases including:
   
 
 ## Time & Space Complexity
-Time Complexity: O(NlogN) for sorting the list and 0(N) for traversing the list. Hence the result is 0(NlogN), where N is the number of ranges from input String.
-Space Complexity: O(N) to store the list of ranges as well as the output list.
+1. Time Complexity: O(NlogN) for sorting the list and 0(N) for traversing the list. Hence the result is 0(NlogN), where N is the number of ranges from input String.
+2. Space Complexity: O(N) to store the list of ranges as well as the output list.
