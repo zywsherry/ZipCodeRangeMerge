@@ -36,7 +36,9 @@ Your work will be evaluated against the following criteria:
 
 ## Assumption
 Input: Assumed to be a string like "[94133,94133] [94200,94299] [94600,94699]", should not be null or empty.
+
 Output: A string represents the merged range.
+
 Additional Assumption:
 1. Zip Code should be 5 digits and can start with "0"
 2. Zip Code Range should be valid, lower bounds must be smaller or equal to upper bounds
@@ -65,10 +67,12 @@ Used ArrayList to implement List Interface
 
 ## Test Cases:
 With the help of JUnit5 using annotation including @Test, @BeforeEach and @AfterEach.
+
 Testing three general cases: 
   1. No overlapping case (input:"[94133,94133] [94200,94299] [94600,94699]")
   2. Overlapping case (input: "[94133,94133] [94200,94299] [94226,94399]")
   3. ZipCode starting with "0" case. (input: "[00102,00210] [01201,01221] [01198,01220]")
+
 Also test the exception throwing cases including: 
   1. input string is null or empty
   2. range has more/less than 2 bounds
