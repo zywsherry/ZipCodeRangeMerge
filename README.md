@@ -58,6 +58,7 @@ Used ArrayList to implement List Interface
 
 
 ## File Description
+#### File Route: ZipCodeRangeMerge / src / main /
 1. App.java: Main Driver to take the input and print out the merged zip code range.
 2. ZipCodeRange.java: Data model for zip code range consisting of the lower bound and upper bound. Both of type String considering zipcode starting with 0
 3. ZipCodePreprocessor.java: Process the string input and convert it into a list of ZipCodeRange objects if all the constraints meeted.
@@ -66,6 +67,7 @@ Used ArrayList to implement List Interface
 
 
 ## Test Cases:
+#### File Route: ZipCodeRangeMerge / src / test / ZipCodeRangeMergeTests.java
 With the help of JUnit5 using annotation including @Test, @BeforeEach and @AfterEach.
 
 Testing three general cases: 
